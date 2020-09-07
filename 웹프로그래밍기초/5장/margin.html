@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin</title>
+    <style>
+        #tar1 {width: 100px; height: 50px; background-color: yellow;}
+        #tar2 {width: 100px; height: 50px; background-color: lightgreen;}
+        div {
+            border: 1px solid red;
+            background-color: yellow;
+            width: 100px;
+            height: auto;
+            resize: both;
+            overflow: auto;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        p {
+            margin: 0px;
+            padding: 0px;
+            background-color: yellow; border: 1px solid red;
+        }
+        #tar3 {
+            margin: 10px;
+            padding: 20px;
+            background-color: lightgreen; border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p id="tar1"> 이것은 tar1 입니다</p>
+    <p id="tar2"> 이것은 tar2 입니다</p>
+    <div>박스의 크기를 조절하여 보세요!</div>
+    <p>margin: 0px, padding: 0px 인 단락입니다</p>
+    <p id="tar3">margin: 10px, padding: 20px 인 단락입니다</p>
+</body>
+</html>
