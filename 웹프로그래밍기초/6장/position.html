@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        #one {
+            background-color: cyan;
+            width: 200px;
+            height: 50px;
+        }
+        #two {
+            position: relative;
+            left: 30px;
+            background-color: greenyellow;
+            width: 200px;
+            height: 50px;
+        }
+        #three {
+            background-color: hotpink;
+            width: 200px;
+            height: 50px; 
+        }
+        #four {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background-color: blueviolet;
+            width: 200px;
+            height: 50px;
+        }
+        #fix {
+            background-color: yellow;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="one"> block1</p>
+    <div id="two"> block2 position : relative</div>
+    <p id="three"> block3</p>
+    <div id="four"> block4 position : absolute</div>
+    <p id="fix"> block5 position : fixed</p>
+</body>
+</html>
